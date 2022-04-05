@@ -29,9 +29,9 @@ public class DiceRoller {
 				} else if (roll1 == 1 && roll2 == 1) {
 					System.out.println("Holy smokes! You rolled snake eyes! Too bad you lost at craps!");
 				} else if (roll1 + roll2 == 7 || roll1 + roll2 == 11) {
-					System.out.println("Holy craps! You just hit the jackpot if you're playing craps right now! Winner!");
+					System.out.println("Holy craps! You just hit the jackpot if you're playing craps right now!");
 				} else if (roll1 + roll2 == 3 || roll1 + roll2 == 12) {
-					System.out.println("Yikes! I'm not trying to talk craps right now, but you just lost if you're playing it!");
+					System.out.println("Yikes! I'm not trying to talk craps right now, but you just lost if you're playing!");
 				}
 				System.out.println("\n");
 				rollCount++;
